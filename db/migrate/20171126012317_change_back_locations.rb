@@ -1,4 +1,4 @@
-class ChangeLocations < ActiveRecord::Migration[5.0]
+class ChangeBackLocations < ActiveRecord::Migration[5.0]
   def up
     remove_column :locations, :name, :string
     rename_column :locations, :address, :weather
